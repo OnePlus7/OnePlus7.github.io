@@ -4,10 +4,10 @@
 
 # Site
 title: OnePlus7's BLOG
-subtitle: Seven is my lucy number
+subtitle: Seven is my lucky number
 description: 
 author: Jiaqi Ye
-language: zh-CN
+language: zh-Hans
 email: laneye3000@gmail.com
 timezone: 
 
@@ -63,6 +63,10 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
+plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+
 ## Themes: http://hexo.io/themes/
 theme: next
 
@@ -70,7 +74,7 @@ theme: next
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository:  git@github.com:OnePlus7/OnePlus7.github.io.git#部署的仓库的SSH
+  repository:  https://github.com/OnePlus7/OnePlus7.github.io.git #部署的仓库的SSH
   branch: master   #部署分支,一般使用master主分支
 
 
